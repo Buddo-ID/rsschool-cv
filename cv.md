@@ -9,7 +9,7 @@
 ## Objective
 
 Develop professionally in the frontend. Combine this with learning English and web design. Work in a large IT company.\
-I love to study and I can quickly learn new things. 
+I love to study and I can quickly learn new things.
 
 ## Skills
 
@@ -17,6 +17,9 @@ I love to study and I can quickly learn new things.
 - scc
 - git
 
+## Strangths
+
+Hard-working, sociability, stress resistance, motivation.
 ## Education
 
 * Nizhny novgorod state technical university n.a.R.E.Alekseev\
