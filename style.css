@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(255, 251, 240);
+}
+
+main {
+    margin: 0 auto;
+    display: flex;
+    min-height: 600px;
+}
+
+aside {
+    padding: 30px;
+    width: 300px;
+    background-color: #669999;
+}
+
+.right {
+    padding: 30px;
+    width: 400px;
+    background-color: rgb(180, 57, 180);
+}
