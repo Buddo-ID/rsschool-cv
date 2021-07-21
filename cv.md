@@ -13,22 +13,24 @@ I love to study and I can quickly learn new things.
 
 ## Skills
 
-- html
-- scc
-- git
+- HTML
+- CSS
+- GIT
+- Photoshop
 
 ## Strangths
 
 Hard-working, sociability, stress resistance, motivation.
+
 ## Education
 
 * Nizhny novgorod state technical university n.a.R.E.Alekseev\
 Institute of Manufacturing Technologies in Machine Building\
-engineer\
+engineer
 * htmlacademy
 * RS Shcool JS/FE Pre-Shcool
 
-## Expirions
+## Experience
 
 leading process engineer
 
