@@ -1,14 +1,35 @@
 body {
-    background-color: rgb(255, 251, 240);
+    background-color: rgb(206, 154, 10);
 }
 
 main {
-    margin: 0 auto;
-    display: flex;
     min-height: 600px;
+    display: flex;
 }
 
-aside {
+footer {
+    background-color: red;
+    padding: 30px;
+}
+
+h1, h2, h3 {
+    font-variant: small-caps;    
+}
+
+h1, h2 {
+    
+    text-align: center;
+}
+/*h1 {
+    line-height: 0px;    ИНТЕРВАЛЫ ??? 
+}*/ 
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: yellow;
+}
+
+.left {
     padding: 30px;
     width: 300px;
     background-color: #669999;
@@ -16,6 +37,14 @@ aside {
 
 .right {
     padding: 30px;
-    width: 400px;
+    width: 700px;
     background-color: rgb(180, 57, 180);
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    line-height: 30px;   
 }
