@@ -21,6 +21,15 @@ h1, h2 {
     
     text-align: center;
 }
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    line-height: 30px;   
+}
+
 /*h1 {
     line-height: 0px;    ИНТЕРВАЛЫ ??? 
 }*/ 
@@ -42,14 +51,37 @@ h1, h2 {
     background-color: rgb(180, 57, 180);
 }
 
-ul {
-    list-style-type: square;
-}
-
-li {
-    line-height: 30px;   
-}
-
 .info {
     text-align: right;
+}
+
+.hide {
+    display: none; 
+}
+
+.hide + label ~ div {
+    display: none;
+}
+
+.hide + label {
+    border-bottom: 1px dotted blue;
+    padding: 0;
+    color:blue;
+    cursor: pointer;
+    display: inline-block; 
+}
+
+.hide:checked + label {
+    color:purple;
+    border-bottom: 0;
+}
+
+.hide:checked + label + div {
+    display: block; 
+    background: #efefef;
+    padding: 10px; 
+}
+
+.demo {
+    margin: 5% 5%;
 }
