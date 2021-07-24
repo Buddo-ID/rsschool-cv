@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(206, 154, 10);
+    background-color: #CCCCFF;
 }
 
 main {
@@ -14,12 +14,17 @@ footer {
 }
 
 h1, h2, h3 {
-    font-variant: small-caps;    
+    font-variant: small-caps;
+    margin-bottom: 1%;    
 }
 
 h1, h2 {
     
     text-align: center;
+}
+
+h3 {
+    font-size: 20px;
 }
 
 ul {
@@ -30,13 +35,14 @@ li {
     line-height: 30px;   
 }
 
-/*h1 {
-    line-height: 0px;    ИНТЕРВАЛЫ ??? 
-}*/ 
+p, li, address, a, time {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
 .wrapper {
     max-width: 1000px;
     margin: 0 auto;
-    background-color: yellow;
 }
 
 .left {
@@ -48,11 +54,7 @@ li {
 .right {
     padding: 30px;
     width: 700px;
-    background-color: rgb(180, 57, 180);
-}
-
-.info {
-    text-align: right;
+    background-color:#FFFFCC;
 }
 
 .hide {
@@ -82,6 +84,3 @@ li {
     padding: 10px; 
 }
 
-.demo {
-    margin: 5% 5%;
-}
