@@ -2,9 +2,35 @@
 html {
     scroll-behavior: smooth;
 }
-main {
+
+/*------------------------MAIN------------------------------*/
+
+.main {
+    margin: 0 auto;
+    max-width: 1000px;
     min-height: 600px;
+}
+.wrapper__main {
+    max-width: 1000px;
+    height: 100%;
+    overflow: auto;
+}
+
+.main__conteiner {
     display: flex;
+    width: 100%;
+}
+
+.left {
+    padding: 30px;
+    width: 300px;
+    background-color:#9885b2;
+}
+
+.right {
+    padding: 30px;
+    width: 700px;
+    background-color:#dab6c2;
 }
 /*---------------------------FOOTER--------------------------*/
 
@@ -62,17 +88,28 @@ p, li, address, a, time {
     max-width: 1000px;
 }
 
-.left {
-    padding: 30px;
-    width: 300px;
-    background-color:#9885b2;
+@media (max-width: 1000px) {
+    .wrapper {
+        max-width: 750px;
+    }
 }
 
-.right {
-    padding: 30px;
-    width: 700px;
-    background-color:#dab6c2;
+@media (max-width: 767px) {
+    .wrapper {
+        max-width: 500px;
+    }
+    .footer {
+        max-width: 750px;
+    }
 }
+
+@media (max-width: 520px) {
+    .wrapper {
+        max-width: 320px;
+    }
+}
+
+
 
 .menu {
     max-width: 700px;
