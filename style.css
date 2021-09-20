@@ -23,13 +23,13 @@ html {
 
 .left {
     padding: 30px;
-    width: 300px;
+    max-width: 30%;
     background-color:#9885b2;
 }
 
 .right {
     padding: 30px;
-    width: 700px;
+    max-width: 70%;
     background-color:#dab6c2;
 }
 /*---------------------------FOOTER--------------------------*/
@@ -38,7 +38,6 @@ html {
     margin: 0 auto;
     max-width: 1000px;
     max-height: 100px;
-    /*background-color:#e5a484;*/
     background-color: #6a3a4f;
 }
 .wrapper__footer{
@@ -83,34 +82,70 @@ p, li, address, a, time {
     font-size: 17px;
 }
 
+.margin{
+    margin-top: 80px;
+}
+
 .wrapper {
     margin: 0 auto;
     max-width: 1000px;
 }
 
+img {
+    max-width: 100%; 
+    height: auto;
+}
+/*-----------------------------------------ADAPTIVE------------------------*/
+
 @media (max-width: 1000px) {
     .wrapper {
         max-width: 750px;
     }
+    html { 
+        /*font-size: calc(1em + 1vw);*/
+        word-break: break-word; 
+    }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .wrapper {
-        max-width: 500px;
+        max-width: 640px;
     }
-    .footer {
-        max-width: 750px;
+    html { 
+        /*font-size: 10vw;*/
+        word-break: break-word;
+    }
+    .main__conteiner {
+        display: inline;
+    }
+    .right {
+        max-width: 100%;
+    }
+    .left {
+        max-width: 100%;
     }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 534px) {
     .wrapper {
         max-width: 320px;
     }
+    html { 
+        /*font-size: 10vw;*/
+        word-break: break-word; 
+    }
+    .main__conteiner {
+        display: inline;
+    }
+    .right {
+        max-width: 100%;
+    }
+    .left {
+        max-width: 100%;
+    }
 }
 
-
-
+/*--------------------------------------MENU---------------------------------*/
 .menu {
     max-width: 700px;
     margin-top: 30px;
@@ -142,6 +177,7 @@ p, li, address, a, time {
     transition: opacity .2s;
 }
 
+/*--------------------------------------CODE------------------------------*/
 
 .hide {
     display: none; 
@@ -170,7 +206,5 @@ p, li, address, a, time {
     padding: 5px; 
 }
 
-.margin{
-    margin-top: 80px;
-}
+
 
